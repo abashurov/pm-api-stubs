@@ -1571,16 +1571,6 @@ Search.appendIndex(
             "summary": "Exit\u0020the\u0020utility\u0020with\u0020provided\u0020exit\u0020code",
             "url": "classes/pm-Hook-ApiCli.html#method_exitCode"
         },                {
-            "fqsen": "\\pm_Hook_ApiRest",
-            "name": "pm_Hook_ApiRest",
-            "summary": "Hook\u0020for\u0020embedding\u0020Swagger\u0020schema\u0020into\u0020the\u0020UI",
-            "url": "classes/pm-Hook-ApiRest.html"
-        },                {
-            "fqsen": "\\pm_Hook_ApiRest\u003A\u003AgetSwaggerSchemaUrl\u0028\u0029",
-            "name": "getSwaggerSchemaUrl",
-            "summary": "",
-            "url": "classes/pm-Hook-ApiRest.html#method_getSwaggerSchemaUrl"
-        },                {
             "fqsen": "\\pm_Hook_ApiRpc",
             "name": "pm_Hook_ApiRpc",
             "summary": "Hook\u0020for\u0020processing\u0020remote\u0020API\u002DRPC\u0020requests",
