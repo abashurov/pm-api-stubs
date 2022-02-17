@@ -74,7 +74,6 @@ class pm_License
      */
     public function getExtensionLicenseInfo($code): ?array { }
 
-    
     public function getMachineIdInfo(): array { }
 
 }

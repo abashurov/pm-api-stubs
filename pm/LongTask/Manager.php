@@ -9,7 +9,6 @@
 class pm_LongTask_Manager
 {
 
-    
     public function __construct() { }
 
     /**

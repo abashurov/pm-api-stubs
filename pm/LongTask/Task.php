@@ -46,7 +46,6 @@ abstract class pm_LongTask_Task
      */
     public $hasDangerousMessage = false;
 
-    
     public function __construct() { }
 
     /**

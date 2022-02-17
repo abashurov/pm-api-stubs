@@ -14,7 +14,6 @@ class HttpsRedirect implements \Psr\Http\Server\MiddlewareInterface
      */
     public function __construct(\Psr\Http\Message\ResponseFactoryInterface $factory, bool $browserRequest = false) { }
 
-    
     public function process(\Psr\Http\Message\ServerRequestInterface $request, \Psr\Http\Server\RequestHandlerInterface $handler): \Psr\Http\Message\ResponseInterface { }
 
 }

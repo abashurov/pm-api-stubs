@@ -7,16 +7,12 @@
 class pm_WebServer_IIS extends pm_WebServer_Abstract implements pm_WebServer_Interface
 {
 
-    
     public function __construct() { }
 
-    
     public function isEnabled(): bool { }
 
-    
     public function isRunning(): bool { }
 
-    
     protected function getIisServiceData(): array { }
 
     /**

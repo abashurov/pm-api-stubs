@@ -9,10 +9,8 @@ namespace Plesk\SDK\Middleware\Server;
 class Initialized implements \Psr\Http\Server\MiddlewareInterface
 {
 
-    
     public function __construct(\Psr\Http\Message\ResponseFactoryInterface $factory) { }
 
-    
     public function process(\Psr\Http\Message\ServerRequestInterface $request, \Psr\Http\Server\RequestHandlerInterface $handler): \Psr\Http\Message\ResponseInterface { }
 
 }

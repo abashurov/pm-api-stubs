@@ -7,13 +7,10 @@
 class pm_WebServer_Apache extends pm_WebServer_Abstract implements pm_WebServer_Interface
 {
 
-    
     public function __construct() { }
 
-    
     public function isEnabled(): bool { }
 
-    
     public function isRunning(): bool { }
 
 }

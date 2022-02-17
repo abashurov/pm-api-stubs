@@ -31,7 +31,6 @@ class pm_Dns_Record
 
     public const TYPE_CAA = 'CAA';
 
-    
     public function __construct($recordId = null) { }
 
     /**

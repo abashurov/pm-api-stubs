@@ -12,10 +12,8 @@ class Domain implements \Psr\Http\Server\MiddlewareInterface
 
     public const REQUEST_ATTR_DOMAIN_ID = 'domainId';
 
-    
     public function __construct(\Psr\Http\Message\ResponseFactoryInterface $factory) { }
 
-    
     public function process(\Psr\Http\Message\ServerRequestInterface $request, \Psr\Http\Server\RequestHandlerInterface $handler): \Psr\Http\Message\ResponseInterface { }
 
 }
