@@ -9,7 +9,7 @@ class HttpsRedirect implements \Psr\Http\Server\MiddlewareInterface
 {
 
     /**
-     * @param ResponseFactoryInterface $factory
+     * @param \Psr\Http\Message\ResponseFactoryInterface $factory
      * @param bool $browserRequest Send HTTP 308 in order to preserve POST request in browsers
      */
     public function __construct(\Psr\Http\Message\ResponseFactoryInterface $factory, bool $browserRequest = false) { }

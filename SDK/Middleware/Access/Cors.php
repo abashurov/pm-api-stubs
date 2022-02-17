@@ -21,7 +21,7 @@ class Cors implements \Psr\Http\Server\MiddlewareInterface
     private const CORS_ORIGIN_HEADER = 'Access-Control-Allow-Origin';
 
     /**
-     * @param ResponseFactoryInterface $factory
+     * @param \Psr\Http\Message\ResponseFactoryInterface $factory
      * @param array{origin?: array<string>, methods?: array<string>, headers?: array<string>, credentials?: bool, expose?: array<string>} $options
      * CORS configuration is applied as follows:
      *  origin: Configures the `Access-Control-Allow-Origin` header.

@@ -11,7 +11,7 @@ class Csrf implements \Psr\Http\Server\MiddlewareInterface
 {
 
     /**
-     * @param ResponseFactoryInterface $factory
+     * @param \Psr\Http\Message\ResponseFactoryInterface $factory
      * @param array $limitMethods Limit token check to the specified HTTP methods (default: [POST, PUT, PATCH, DELETE])
      */
     public function __construct(\Psr\Http\Message\ResponseFactoryInterface $factory, array $limitMethods = ['POST', 'PUT', 'PATCH', 'DELETE']) { }
